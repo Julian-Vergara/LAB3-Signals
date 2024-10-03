@@ -296,7 +296,7 @@ Dado el resultado del test de Wilcoxon y el bajo p-valor obtenido, podemos recha
 
 El descenso en la mediana de la señal EMG podría estar relacionado con la disminución de la capacidad de generar fuerza muscular a medida que avanza la prueba, lo cual es consistente con lo que se esperaría en un contexto de fatiga muscular progresiva.
 ### Anexos
-
+![Filtor](filtro.png)
 ## Requisitos
 - Pyton 3.9.0 ó superior
 ### Libreias:
@@ -309,3 +309,5 @@ El descenso en la mediana de la señal EMG podría estar relacionado con la dism
 - matplotlib
 ## Contacto 
 est.julian.vergara@unimilitar.edu.co
+est.elizabeth.vill@unimilitar.edu.co
+
