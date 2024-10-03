@@ -45,7 +45,7 @@ class principal(QMainWindow):
         self.fn_alta = self.fc_alta / (0.5 * self.fm)
 
         # Orden del filtro
-        self.orden = 4
+        self.orden = 3
 
         # Filtro pasa banda
         self.b, self.a = butter(self.orden, [self.fn_baja, self.fn_alta], btype='bandpass', analog=False)
