@@ -283,6 +283,8 @@ Una vez que la señal ha sido aventanada, se procede a aplicar la Transformada d
 ```
 Por último, esta sección del código muestra los valores en la interfaz y realiza el análisis estadístico. Para este análisis, se utilizó el test de Wilcoxon, que es adecuado para comparar dos muestras sin necesidad de parametrización. Este test fue empleado para comprobar la hipótesis de que, a medida que un músculo se utiliza, su fuerza disminuye debido a la fatiga. El objetivo es identificar diferencias significativas entre el promedio de las medianas de las ventanas y la mediana de la última ventana. En este caso, el test de Wilcoxon es apropiado debido a la relación que existe entre los datos, ya que permite evaluar la fuerza del músculo al inicio y al final de la prueba.
 
+[Wilcoxon Pyton](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html)
+
 ### Resultados y análisis
 Al correr el código y cargar el archivo con los datos de la señal EMG, se obtuvieron los siguientes resultados en la consola:
 
